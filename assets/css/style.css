@@ -9,6 +9,13 @@
 }
 
 @font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'CWDangamAsac-Bold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
     font-weight: normal;
@@ -388,7 +395,7 @@ section {
 }
 
 .section-title h2 {
-    font-family: "tenada", sans-serif;
+    font-family: "OAGothic-ExtraBold", sans-serif;
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -429,7 +436,7 @@ section {
 --------------------------------------------------------------*/
 
 .about h3 {
-    font-family: "tenada", sans-serif;
+    font-family: "OAGothic-ExtraBold", sans-serif;
     font-weight: 700;
     font-size: 26px;
     color: #728394;
