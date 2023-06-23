@@ -306,6 +306,10 @@ h6 {
     position: relative;
 }
 
+#hero:hover {
+    cursor: none;
+}
+
 #hero .code, .adobe {
     pointer-events: none;
 }
