@@ -320,11 +320,6 @@ h6 {
     transition: all 1s;
 }
 
-#hero .code, .adobe {
-    pointer-events: none;
-}
-
-
 /* 화면줄였을떄 */
 @media (min-width: 992px) {
     #hero {
@@ -550,9 +545,6 @@ section {
     font-size: 13px;
 }
 
-#footer .code, .adobe {
-    pointer-events: none;
-}
 
 .txt-shadow {
     color: rgba(0, 0, 0, 0.3);
