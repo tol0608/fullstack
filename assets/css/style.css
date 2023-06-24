@@ -49,6 +49,14 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
+.oa-gothic {
+    font-family: "OAGothic-ExtraBold", sans-serif;
+}
+
+.cw-dg {
+    font-family: "CWDangamAsac-Bold", serif;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -314,6 +322,7 @@ h6 {
     pointer-events: none;
 }
 
+
 /* 화면줄였을떄 */
 @media (min-width: 992px) {
     #hero {
@@ -336,14 +345,12 @@ h6 {
     font-size: 64px;
     line-height: 56px;
     color: #45505b;
-    font-family: "CWDangamAsac-Bold", serif;
 }
 
 #hero p {
     color: #45505b;
     margin: 15px 0 0 0;
     font-size: 26px;
-    font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
