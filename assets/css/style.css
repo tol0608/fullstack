@@ -312,10 +312,12 @@ h6 {
     background: url("../img/mainbanner.jpeg") top right no-repeat;
     background-size: cover;
     position: relative;
-}
-
-#hero:hover {
-    cursor: none;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: all 1s
 }
 
 #hero .code, .adobe {
@@ -378,6 +380,7 @@ h6 {
 @media (max-width: 992px) {
     #hero {
         text-align: center;
+        background-size: cover;
     }
 
     #hero h1 {
@@ -389,6 +392,13 @@ h6 {
         margin-top: 10px;
         font-size: 20px;
         line-height: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero {
+        background-position: 50%;
+        ;
     }
 }
 
